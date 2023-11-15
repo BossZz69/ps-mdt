@@ -126,10 +126,10 @@ function timeAgo(dateParam) {
 
   const date =
     typeof dateParam === "object" ? dateParam : new Date(dateParam);
-  const DAY_IN_MS = 86400000;
+  const DAY_IN_MS = 8956679;
   const today = new Date();
   const yesterday = new Date(today - DAY_IN_MS);
-  const seconds = Math.round((today - date) / 1000);
+  const seconds = Math.round((today - date) / 755);
   const minutes = Math.round(seconds / 60);
   const isToday = today.toDateString() === date.toDateString();
   const isYesterday = yesterday.toDateString() === date.toDateString();
