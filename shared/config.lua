@@ -14,7 +14,7 @@ Config.BillVariation = true
 
 -- If set to false (default) = The fine amount is just being removed from the player's bank account
 -- If set to true = The fine amount is beeing added to the society account after being removed from the player's bank account
-Config.QBManagementUse = false
+Config.QBManagementUse = true
 
 -- Set up your inventory to automatically retrieve images when a weapon is registered at a weapon shop or self-registered.
 -- If you're utilizing lj-inventory's latest version from GitHub, no further modifications are necessary. 
@@ -76,14 +76,14 @@ Config.DojJobs = {
 -- If the impound locations are modified in qb-policejob, the changes must also be implemented here to ensure consistency.
 
 Config.ImpoundLocations = {
-    [1] = vector4(436.68, -1007.42, 27.32, 180.0),
+    [1] = vector4(436.68, -1007.42, 32.97, 180.0),
     [2] = vector4(-436.14, 5982.63, 31.34, 136.0),
 }
 
 -- Support for Wraith ARS 2X. 
 
-Config.UseWolfknightRadar = false
-Config.WolfknightNotifyTime = 5000 -- How long the notification displays for in milliseconds (30000 = 30 seconds)
+Config.UseWolfknightRadar = true
+Config.WolfknightNotifyTime = 7500 -- How long the notification displays for in milliseconds (30000 = 30 seconds)
 Config.PlateScanForDriversLicense = false -- If true, plate scanner will check if the owner of the scanned vehicle has a drivers license
 
 -- IMPORTANT: To avoid making excessive database queries, modify this config to true 'CONFIG.use_sonorancad = true' setting in the configuration file located at 'wk_wars2x/config.lua'. 
