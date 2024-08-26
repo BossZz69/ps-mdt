@@ -23,7 +23,7 @@ function PermCheck(src, PlayerData)
 
 	if not Config.AllowedJobs[PlayerData.job.name] then
 		print(("UserId: %s(%d) tried to access the mdt even though they are not authorised (server direct)"):format(GetPlayerName(src), src))
-		result = false
+		result = true
 	end
 
 	return result
