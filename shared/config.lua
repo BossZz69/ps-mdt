@@ -1,6 +1,6 @@
 Config = Config or {}
 
-Config.UsingPsHousing = false
+Config.UsingPsHousing = true
 Config.UsingDefaultQBApartments = true
 Config.OnlyShowOnDuty = true
 Config.UseCQCMugshot = true
