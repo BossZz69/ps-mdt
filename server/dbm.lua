@@ -151,7 +151,7 @@ function UpdateAllLicenses(identifier, incomingLicenses)
         result.licences = result.licences or {
             ['driver'] = true,
             ['business'] = false,
-            ['weapon'] = false,
+            ['weapon'] = true,
             ['pilot'] = false
         }
 
